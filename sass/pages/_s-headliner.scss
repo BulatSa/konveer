@@ -1,0 +1,38 @@
+.s-headliner{
+	padding: 40px 0;
+	background: url("../img/headliner/bg.png") 80% top no-repeat;
+	@include res(xl){
+		background-position: 100% top;
+	}
+	@include res(l){
+		background-position: 220% top;
+	}
+	@include res(m){
+		background: none;
+	}
+
+	.h1{
+		small{
+			font-size: 50%;
+			display: block;
+		}
+	}
+
+	.h6.purple{
+		margin-bottom: 0.5em;
+	}
+
+	.h6.purple-light{
+		margin-top: 1em;
+		max-width: 430px;
+		margin-bottom: 2em;
+	}
+
+	&__text{
+		max-width: 580px;
+	}
+
+	.btn{
+		margin-top: 50px;
+	}
+}

@@ -1,0 +1,22 @@
+$breakpoints: (
+	'xl': (max-width: 1400px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 680px),
+	'xs': (max-width: 480px),
+);
+
+$font: 'Ubuntu', Arial, sans-serif;
+$font-title: 'Cera Round Pro', 'Ubuntu', sans-serif;
+
+$black: #000000;
+$white: #FFFFFF;
+$color-bg: #17162c;
+$green: #39ffbb;
+$red: #ff0143;
+$purple: #625cbb;
+$purple-light: #868aa7;
+
+$container_width: 1200px;
+
+$gutter: 12px;

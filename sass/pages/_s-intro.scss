@@ -1,0 +1,240 @@
+.s-intro{
+	padding-top: 130px;
+	height: 100vh;
+	min-height: 900px;
+	background: url("../img/intro/intro-bg.png") center center no-repeat;
+	background-size: auto 100%;
+	@include res(xl){
+		background-position: center bottom;
+		min-height: 600px;
+		padding-top: 100px;
+	}
+	@include res(l){
+		padding-top: 80px;
+		background-size: 120% auto;
+		background-position: center center;
+	}
+	@include res(m){
+		height: auto;
+		min-height: 780px;
+	}
+	@include res(s){
+		min-height: 670px;
+		padding-top: 30px;
+	}
+	@include res(xs){
+		background-position: center 80%;
+	}
+}
+
+
+.intro-top{
+	width: 660px;
+	max-width: 100%;
+	@include res(xl){
+		width: 500px;
+	}
+	@include res(s){
+		//width: 400px;
+	}
+
+	&__what{
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.55em;
+		@include res(s){
+			font-size: 12px;
+		}
+	}
+
+	object,svg{
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 25px 0;
+		@include res(s){
+			width: 400px;
+			max-width: 80%;
+		}
+	}
+
+	&__descr{
+		font-size: 20px;
+		font-weight: 300;
+		margin-bottom: 40px;
+		@include res(xl){
+			font-size: 16px;
+		}
+		@include res(xs){
+			font-size: 14px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@keyframes gonext-jump {
+	from{
+		transform: translate3d(0,20px,0) scaleY(0.6);
+		border-radius: 50%;
+	}
+	to{
+		transform: translate3d(0,-20px,0) ;
+	}
+}
+
+.intro-bottom{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	margin-top: 130px;
+	@include res(xl){
+		margin-top: 60px;
+	}
+	@include res(l){
+		margin-top: 0;
+	}
+	@include res(s){
+		margin-top: 100px;
+	}
+	@include res(xs){
+		margin-top: 30px;
+		justify-content: flex-start;
+	}
+
+	strong{
+		flex-shrink: 0;
+		font-size: 66px;
+		font-weight: bold;
+		line-height: 1;
+		margin-right: 10px;
+		@include res(s){
+			font-size: 40px;
+		}
+	}
+
+	span{
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 1;
+		display: block;
+		@include res(s){
+			font-size: 18px;
+		}
+	}
+
+	a{
+		display: inline-block;
+		color: $green;
+		font-size: 16px;
+		font-weight: 300;
+		transition: color 0.3s ease;
+		white-space: nowrap;
+		@include res(s){
+			font-size: 14px;
+		}
+
+		&:hover{
+			color: $white;
+		}
+
+		img{
+			margin-left: 4px;
+			display: inline-block;
+		}
+
+		&:hover{
+			img{
+				animation: pin-jump 0.2s 2 ease;
+			}
+		}
+	}
+}
+
+@keyframes pin-jump {
+	0%{
+		transform: translate3d(0,0,0);
+	}
+	50%{
+		transform: translate3d(0,-5px,0);
+	}
+	100%{
+		transform: translate3d(0,0,0);
+	}
+}
+
+
+.intro-go{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 30px;
+	margin: auto;
+	width: 56px;
+
+	&:before{
+		content: '';
+		width: 18px;
+		height: 32px;
+		background: $green;
+		border-radius: 20px;
+		position: absolute;
+		bottom: 30px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		animation: gonext-jump 0.5s infinite alternate cubic-bezier(0.215, 0.61, 0.355, 1);
+		z-index: 2;
+		transition: background 0.3s ease;
+	}
+
+	img{
+		display: block;
+		position: relative;
+		z-index: 2;
+	}
+
+	span{
+		position: absolute;
+		white-space: nowrap;
+		color: $purple-light;
+		font-weight: 300;
+		font-style: italic;
+		bottom: 120px;
+		left: 120px;
+		transition: color 0.3s ease;
+		@include res(s){
+			display: none;
+		}
+		
+		&:before{
+			content: '';
+			width: 157px;
+			height: 83px;
+			background: url("../img/intro/go-line.png") center top no-repeat;
+			position: absolute;
+			right: 50%;
+			top: -10px;
+		}
+	}
+	
+	&:hover{
+		span{
+			color: #FFF;
+		}
+		&:before{
+			background: #FFF;
+		}
+	}
+}
+
+@keyframes gonext-jump {
+	from{
+		transform: translate3d(0,20px,0) scaleY(0.6);
+		border-radius: 50%;
+	}
+	to{
+		transform: translate3d(0,-20px,0) ;
+	}
+}
