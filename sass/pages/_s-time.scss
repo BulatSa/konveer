@@ -151,3 +151,35 @@
 		z-index: 3;
 	}
 }
+
+.time-stage__text {
+	position: absolute;
+	bottom: -140px;
+	right: 30px;
+	display: block;
+	max-width: 210px;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	color: #858aa6;
+	@include res(l) {
+		font-size: 16px;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		top: -90%;
+		left: -50%;
+		width: 120px;
+		height: 210px;
+		pointer-events: none;
+		transform: rotate(155deg);
+		background: url(../img/circle-arrow.svg) no-repeat center center;
+		z-index: 1;
+		@include res(l) {
+			top: -130%;
+			left: -40%;
+			height: 170px;
+		}
+	}
+}

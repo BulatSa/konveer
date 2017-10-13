@@ -7,3 +7,13 @@
 	font-weight: 900;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'ALS Rubl';
+	src: url('../fonts/hinted-subset-ALSRubl.eot');
+	src: url('../fonts/hinted-subset-ALSRubl.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/hinted-subset-ALSRubl.woff') format('woff'),
+	url('../fonts/hinted-subset-ALSRubl.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
