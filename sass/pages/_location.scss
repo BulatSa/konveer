@@ -1,18 +1,60 @@
 .s-location {
 	padding-top: 80px;
+
 }
 
 .location {}
 
 .location__img {
 	margin-top: -120px;
-	background: url('../../img/location/bg-location.jpg') no-repeat top center;
+	text-align: center;
+	background: url('../../img/location/bg-location.png') no-repeat top center;
+	@include res(s) {
+		display: none;
+	}
+	&>img {
+		display: block;
+		max-width: 100%;
+		margin: 230px auto 0;
+		@include res(l) {
+			margin-top: 180px;
+		}
+	}
+	a {
+		display: inline-block;
+		margin-top: 80px;
+		color: $green;
+		transition: all 0.3s ease;
+		@include res(l) {
+			margin-top: 60px;
+		}
+		&:hover{
+			color: $white;
+			img{
+				animation: pin-jump 0.2s 2 ease;
+			}
+		}
+		img {
+			margin-right: 6px;
+		}
+	}
+}
+
+.location__info {
+	padding-bottom: 40px;
+	@include res(s) {
+		background: url('../../img/location/bg-location.png') no-repeat top center;
+		background-size: cover;
+	}
 }
 
 .location__text {
 	padding-top: 15px;
 	.h3 {
 		padding-bottom: 40px;
+		@include res(s) {
+			padding-bottom: 30px;
+		}
 	}
 }
 
@@ -20,6 +62,9 @@
 	padding-bottom: 40px;
 	font-size: 16px;
 	font-weight: 400;
+	@include res(s) {
+		padding-bottom: 30px;
+	}
 }
 
 .location__metro-list {
@@ -58,6 +103,29 @@
 	&--blue {
 		&:before {
 			background: #0099cc;
+		}
+	}
+}
+
+.location__map-link {
+	display: none;
+	@include res(s) {
+		display: block;
+		padding-top: 10px;
+		//text-align: center;
+	}
+	a {
+		display: inline-block;
+		color: $green;
+		transition: all 0.3s ease;
+		&:hover{
+			color: $white;
+			img{
+				animation: pin-jump 0.2s 2 ease;
+			}
+		}
+		img {
+			margin-right: 6px;
 		}
 	}
 }

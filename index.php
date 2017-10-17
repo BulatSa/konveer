@@ -480,11 +480,11 @@
 <section class="s-location">
 	<div class="location container">
 		<div class="row">
-			<div class="grid-6 location__img">
+			<div class="grid-6 grid-5_l grid-12_s location__img">
 				<img src="img/location/logo.png" alt="Точка кипения">
-				<a href="#"><img src="/img/pin.svg" alt="pin"><span>Схема проезда</span></a>
+				<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map" data-type="iframe"><img src="/img/pin.svg" alt="pin">Схема проезда</a>
 			</div>
-			<div class="grid-6">
+			<div class="grid-6 grid-7_l grid-12_s location__info">
 				<h6 class="h6 purple">место сборки бизнес конвейера </h6>
 				<p class="h1">точка кипения</p>
 				<div class="location__text">
@@ -496,6 +496,128 @@
 						<span class="location__metro-item location__metro-item--purple">баррикадная</span>
 						<span class="location__metro-item location__metro-item--blue">Смоленская</span>
 					</div>
+					<div class="location__map-link">
+						<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map" data-type="iframe"><img src="/img/pin.svg" alt="pin">Схема проезда</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-facts">
+	<div class="facts-video">
+		<video autoplay="true" loop="true">
+			<source src=http://techslides.com1/demos/sample-videos/small.webm type=video/webm>
+			<source src=http://techslides.com1/demos/sample-videos/small.ogv type=video/ogg>
+			<source src=http://techslides.com1/demos/sample-videos/small.mp4 type=video/mp4>
+			<source src=http://techslides.com1/demos/sample-videos/small.3gp type=video/3gp>
+		</video>
+	</div>
+	<div class="facts container">
+		<div class="row">
+			<div class="grid-12">
+				<h6 class="h6 purple">Организатор</h6>
+				<img src="img/logo-white.svg" alt="" class="facts__logo">
+			</div>
+			<div class="grid-6 grid-12_s">
+				<div class="facts__text">
+					<p>В 2012 году мы запустили проект «Фабрика Предпринимательства» и благодаря ему более 300 участников создали свой бизнес, а уже действующие предприниматели увеличили свою прибыль более чем в 2 раза. Спустя время мы увидели, что начинающие предприниматели не всегда могут самостоятельно выбраться из стартового хаоса, создать чёткую структуру своего бизнеса, снизить своё участие в</p>
+				</div>
+			</div>
+			<div class="grid-6 grid-12_s">
+				<div class="facts__text">
+					<p>бизнесе и, главное, увеличить свой доход. Чтобы помочь предпринимателям, мы, объединив практические знания в области бизнеса и уникальную методику взаимодействия начинающих предпринимателей с успешными действующими бизнесменами, доход которых превышает более 1 млн рублей в месяц, создали специальные образовательные курсы.</p>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_s facts__item">
+				<span>21 000 +</span>
+				<p class="h6">человек посетили наши события</p>
+			</div>
+			<div class="grid-3 grid-6_s facts__item">
+				<span>500 +</span>
+				<p class="h6">запустили бизнес с&nbsp;наставниками</p>
+			</div>
+			<div class="grid-3 grid-6_s facts__item">
+				<span>87 +</span>
+				<p class="h6">предпринимателей-наставников</p>
+			</div>
+			<div class="grid-3 grid-6_s facts__item">
+				<span>2 000 +</span>
+				<p class="h6">Создано компаний</p>
+			</div>
+			<div class="grid-12">
+				<div class="facts__man">
+					<img src="img/facts/fact-man.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-order">
+	<div class="order container">
+		<div class="row">
+			<div class="grid-12">
+				<h6 class="h6 purple">Условия участия</h6>
+				<p class="h1">Формат участия</p>
+				<div class="order__form">
+					<form class="ajax-form">
+						<div class="condition row">
+							<div class="grid-2">
+								<label>
+									<input type="radio" name="condition" value="Start">
+									<span>Start</span>
+								</label>
+							</div>
+							<div class="grid-2">
+								<span class="condition__price">0 рублей</span>
+							</div>
+							<div class="grid-8">
+								<span class="condition__descr">Участие в зале | Не фиксированные места | Еще что нибудь</span>
+							</div>
+						</div>
+						<div class="condition row">
+							<div class="grid-2">
+								<label>
+									<input type="radio" name="condition" value="Standart">
+									<span>Standart</span>
+								</label>
+							</div>
+							<div class="grid-2">
+								<span class="condition__price">1 000 рублей</span>
+							</div>
+							<div class="grid-8">
+								<span class="condition__descr">Забронированное место | Ужин</span>
+							</div>
+						</div>
+						<div class="condition row">
+							<div class="grid-2">
+								<label>
+									<input type="radio" name="condition" value="Pro">
+									<span>Pro</span>
+								</label>
+							</div>
+							<div class="grid-2">
+								<span class="condition__price">10 000 рублей</span>
+							</div>
+							<div class="grid-8">
+								<span class="condition__descr">Забронированное место | Разбор от Александра Кравтцова | Ужин</span>
+							</div>
+						</div>
+						<div class="order__inputs">
+							<input type="text" class="input-text" name="name" placeholder="Ваше имя">
+							<input type="tel" class="input-text" name="phone" placeholder="Телефон*" data-req="true">
+							<input type="email" class="input-text" name="email" placeholder="E-mail">
+							<button class="btn">Отправить</button>
+						</div>
+						<label class="style-checkbox">
+							<input type="checkbox" checked data-req="true" name="agree-terms">
+							<span>Я принимаю <a href="#" target="_blank">условия передачи информации</a></span>
+						</label>
+					</form>
 				</div>
 			</div>
 		</div>

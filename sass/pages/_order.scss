@@ -1,0 +1,55 @@
+.s-order {
+	padding-bottom: 80px;
+}
+
+.order {}
+
+.order__form {
+	padding-top: 30px;
+}
+
+.order__inputs {
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+	@include res(m) {
+		flex-wrap: wrap;
+	}
+	.input-text {
+		width: calc(25% - 12px);
+		margin-right: $gutter;
+		@include res(m) {
+			width: calc(50% - 12px);
+		}
+	}
+	.btn {
+		width: calc(25% - 12px);
+		margin-bottom: 20px;
+		@include res(m) {
+			width: calc(50% - 12px);
+		}
+	}
+}
+
+.condition {
+	label {
+		span {
+			display: inline-block;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: $green;
+			letter-spacing: 0.15em;
+		}
+	}
+}
+
+.condition__price {
+	letter-spacing: 0.1em;
+}
+
+.condition__descr {
+	letter-spacing: 0.1em;
+	color: $purple-light;
+}
