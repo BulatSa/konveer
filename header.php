@@ -12,13 +12,25 @@
 	<![endif]-->
 
 
-	<title>Бизнес конвеер</title>
+	<title>Бизнес конвейер</title>
+	<meta name="description" content="Ключевые руководства к действию от предпринимателей с доходом от 1.000.000 рублей на одной площадке">
+
+	<!--favicons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/manifest.json">
+	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/favicons/favicon.ico">
+	<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#17162c">
+	<!--favicons-->
 
 	<!-- og -->
-	<meta property="og:title" content="Бизнес конвеер">
-	<meta property="og:description" content="Бизнес конвеер">
+	<meta property="og:title" content="Бизнес конвеqер">
+	<meta property="og:description" content="Ключевые руководства к действию от предпринимателей с доходом от 1.000.000 рублей на одной площадке">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="/img/og.jpg">
+	<meta property="og:image" content="<?=$_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST']."/img/og.jpg";?>">
 	<!-- og -->
 
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,700&amp;subset=cyrillic" rel="stylesheet">
