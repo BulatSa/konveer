@@ -1,1 +1,11 @@
 AddDefaultCharset utf-8
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 10 day"
+  ExpiresByType image/gif "access plus 10 day"
+  ExpiresByType image/png "access plus 10 day"
+  ExpiresByType image/svg+xml "access plus 10 day"
+  ExpiresByType text/css "access plus 10 day"
+  ExpiresByType application/javascript "access plus 10 day"
+</IfModule>
