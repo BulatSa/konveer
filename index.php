@@ -45,7 +45,7 @@
 			<div class="intro-date">
 				<span>октября</span>
 				<span>19:00</span>
-				<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map" data-type="iframe">Схема проезда <img src="/img/pin.svg" alt="pin"></a>
+				<a href="https://yandex.ru/map-widget/v1/-/CBUhURfPKD" class="fancy-map" data-type="iframe">Схема проезда <img src="/img/pin.svg" alt="pin"></a>
 			</div>
 		</div>
 
@@ -485,7 +485,7 @@
 		<div class="row">
 			<div class="grid-6 grid-5_l grid-12_s location__img">
 				<img src="img/location/logo.png" alt="Точка кипения">
-				<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map" data-type="iframe"><img src="/img/pin.svg" alt="pin">Схема проезда</a>
+				<a href="https://yandex.ru/map-widget/v1/-/CBUhURfPKD" class="fancy-map" data-type="iframe"><img src="/img/pin.svg" alt="pin">Схема проезда</a>
 			</div>
 			<div class="grid-6 grid-7_l grid-12_s location__info">
 				<h6 class="h6 purple">место сборки бизнес конвейера </h6>
@@ -611,11 +611,12 @@
 							<input type="text" class="input-text" name="name" placeholder="Ваше имя">
 							<input type="tel" class="input-text" name="phone" placeholder="Телефон*" data-req="true">
 							<input type="email" class="input-text" name="email" placeholder="E-mail">
+							<input type="hidden" value="Новая заявка" name="form_subject">
 							<button class="btn">Отправить</button>
 						</div>
 						<label class="style-checkbox style-checkbox--red">
 							<input type="checkbox" checked data-req="true" name="agree-terms" data-label="Согласен с условиями" value="Да">
-							<span>Я принимаю <a href="#" target="_blank">условия передачи информации</a></span>
+							<span>Я принимаю <a href="#" class="fancy" data-src="#modal-politycs">условия передачи информации</a></span>
 						</label>
 					</form>
 				</div>
