@@ -33,9 +33,16 @@
 		box-shadow: 0 3px 0 0 darken($red,10%);
 		transform: translate3d(0,2px,0);
 	}
+	&--long {
+		padding: 15px 80px;
+	}
 }
 
 button::-moz-focus-inner {
 	border: 0;
 	padding: 0;
+}
+
+.btn-center {
+	text-align: center;
 }

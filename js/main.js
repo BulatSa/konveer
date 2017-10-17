@@ -211,7 +211,16 @@ $(document).ready(function() {
 			transformOrigin: "center top",
 			ease: Power2.easeInOut,
 			repeat:-1, yoyo:true
-		},'-=1');
+		},'-=1')
+		.to('.time-stage__men-cap', 1, {
+			skewY: 7,
+			skewX: -1,
+			scaleX: 0.95,
+			scaleY: 1.1,
+			transformOrigin: "right top",
+			ease: Sine.easeInOut,
+			repeat:-1, yoyo:true
+		},'-=2');
 
 	$('.time-stage__wave').waypoint(function (direction) {
 		if (direction === "down"){
@@ -223,6 +232,65 @@ $(document).ready(function() {
 		offset: '60%'
 	});
 	//time
+
+	// Transformer
+	TweenMax.set('.transformer-topper',{
+		y: 50
+	});
+	TweenMax.set('.transformer-middler',{
+		scaleY: 0.1,
+		transformOrigin: "center bottom"
+	});
+	TweenMax.set('.contest__man',{
+		y: 300
+	});
+	TweenMax.set('.contest__man-cape',{
+		skewY: -35,
+		skewX: -15,
+		transformOrigin: "right 20%",
+	});
+
+	var lift_tween = new TimelineMax({
+		paused: true
+	});
+	lift_tween
+		.to('.transformer-topper', 1, {
+			y: 0,
+			ease: Expo.easeInOut
+		},0)
+		.to('.transformer-middler', 1, {
+			scaleY: 1,
+			transformOrigin: "center bottom",
+			ease: Expo.easeInOut
+		},0)
+		.to('.contest__man', 1, {
+			y: 0,
+			ease: Expo.easeInOut
+		},0)
+		.to('.contest__man-cape', 1, {
+			skewY: 0,
+			skewX: 0,
+			transformOrigin: "right 20%",
+			ease: Expo.easeInOut
+		},0)
+		.to('.contest__man-cape', 2, {
+			skewY: -10,
+			skewX: -2,
+			scaleX: 1.05,
+			scaleY: 0.9,
+			transformOrigin: "right 20%",
+			ease: Sine.easeInOut,
+			repeat:-1, yoyo:true
+		})
+	$('.contest__img').waypoint(function (direction) {
+		if (direction === "down"){
+			lift_tween.play();
+		} else {
+			lift_tween.reverse(1);
+		}
+	}, {
+		offset: '50%'
+	});
 
 });
 /***********************

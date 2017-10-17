@@ -27,7 +27,7 @@
 		bottom: 120px;
 	}
 	@include res(l){
-		left: -140px;
+		//left: -140px;
 	}
 	@include res(m){
 		display: none;
@@ -41,7 +41,12 @@
 	margin-right: auto;
 	position: relative;
 	z-index: 2;
-
+	@include res(l) {
+		margin-right: 0;
+	}
+	@include res(m) {
+		margin-right: auto;
+	}
 	.h6{
 		margin-bottom: 0.5em;
 	}
@@ -61,7 +66,11 @@
 	text-align: center;
 	margin-top: 100px;
 	@include res(l){
+		margin-right: 0;
 		margin-top: 50px;
+	}
+	@include res(m) {
+		margin-right: auto;
 	}
 
 	.btn{
