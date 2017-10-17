@@ -159,24 +159,25 @@ $(document).ready(function(){
 Gsap BEGIN
 ***********************/
 $(document).ready(function() {
+
 	TweenMax.to('.text-logo-stripe', 2, {
-		x:-23,
-		scaleX:0.6,
+		x: -23,
+		scaleX: 0.6,
 		fill: "#39ffbb",
-		repeat:-1,
-		yoyo:true,
-		ease:Cubic.easeIn
+		repeat: -1,
+		yoyo: true,
+		ease: Cubic.easeIn
 	});
 
 	var man_tween = TweenMax.to(".cheerman", 1.2, {
 		y: -50,
 		rotation: 25,
-		transformOrigin:"50px 20px",
+		transformOrigin: "50px 20px",
 		ease: Bounce.easeIn
 	});
 
 	$('.for-svg').waypoint(function (direction) {
-		if (direction === "down"){
+		if (direction === "down") {
 			man_tween.reverse();
 		} else {
 			man_tween.play();
