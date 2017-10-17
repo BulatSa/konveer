@@ -496,7 +496,7 @@
 					<p class="location__adress">Москва, Малый Конюшковский пер., 2</p>
 					<div class="location__metro-list">
 						<span class="location__metro-item">Краснопресненская</span>
-						<span class="location__metro-item location__metro-item--purple">баррикадная</span>
+						<span class="location__metro-item location__metro-item--purple">Баррикадная</span>
 						<span class="location__metro-item location__metro-item--blue">Смоленская</span>
 					</div>
 					<div class="location__map-link">
