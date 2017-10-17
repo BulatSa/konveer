@@ -1,6 +1,7 @@
 ﻿<?php include('header.php'); ?>
 
-<div class="site-stripes">
+
+<div class="site-stripes angle--60">
 	<div class="container">
 		<figure></figure>
 		<figure></figure>
@@ -12,23 +13,24 @@
 	</div>
 </div>
 
+
 <header class="site-top">
 	<div class="container">
-		<a href="#" class="site-top__logo">
+		<a href="#s-intro" class="sto site-top__logo">
 			<img src="/img/logo-black.svg" alt="Logotype">
 		</a>
 		<nav class="site-top__nav">
-			<a href="#">Спикеры</a>
-			<a href="#">Программа</a>
-			<a href="#" class="active">Темы разбора</a>
-			<a href="#">Место проведения</a>
-			<a href="#">Организатор</a>
+			<a href="#s-team" class="sto">Спикеры</a>
+			<a href="#s-time" class="sto">Программа</a>
+			<a href="#s-themes" class="sto active">Темы разбора</a>
+			<a href="#s-location" class="sto">Место проведения</a>
+			<a href="#s-facts" class="sto">Организатор</a>
 		</nav>
 	</div>
 </header>
 
 
-<section class="s-intro">
+<section class="s-intro" id="s-intro">
 	<div class="container">
 
 		<div class="intro-top">
@@ -87,7 +89,7 @@
 </section>
 
 
-<section class="s-team">
+<section class="s-team" id="s-team">
 	<div class="container">
 		<h6 class="h6 purple">ключевые эксперты бизнеса</h6>
 		<p class="h1">60 разборов бизнесов за&nbsp;один вечер</p>
@@ -170,7 +172,7 @@
 </section>
 
 
-<section class="s-time">
+<section class="s-time" id="s-time">
 	<div class="container">
 		<div class="row">
 			<div class="grid-6 grid-12_m">
@@ -226,7 +228,7 @@
 </section>
 
 
-<section class="s-themes">
+<section class="s-themes" id="s-themes">
 	<div class="container">
 		<div class="row">
 			<div class="grid-8 grid-12_m">
@@ -477,7 +479,8 @@
 	</div>
 </section>
 
-<section class="s-location">
+
+<section class="s-location" id="s-location">
 	<div class="location container">
 		<div class="row">
 			<div class="grid-6 grid-5_l grid-12_s location__img">
@@ -506,13 +509,10 @@
 </section>
 
 
-<section class="s-facts">
+<section class="s-facts" id="s-facts">
 	<div class="facts-video">
-		<video autoplay="true" loop="true">
-			<source src=http://techslides.com1/demos/sample-videos/small.webm type=video/webm>
-			<source src=http://techslides.com1/demos/sample-videos/small.ogv type=video/ogg>
-			<source src=http://techslides.com1/demos/sample-videos/small.mp4 type=video/mp4>
-			<source src=http://techslides.com1/demos/sample-videos/small.3gp type=video/3gp>
+		<video autoplay loop muted>
+			<source src="/video/video.mp4" type=video/mp4>
 		</video>
 	</div>
 	<div class="facts container">
@@ -548,7 +548,7 @@
 				<p class="h6">Создано компаний</p>
 			</div>
 			<div class="grid-12">
-				<div class="facts__man">
+				<div class="facts__man anim">
 					<img src="img/facts/fact-man.png" alt="">
 				</div>
 			</div>
@@ -566,13 +566,13 @@
 				<div class="order__form">
 					<form class="ajax-form">
 						<div class="condition row">
-							<div class="grid-2">
-								<label>
-									<input type="radio" name="condition" value="Start">
+							<div class="grid-2 condition__label-wrap">
+								<label class="style-checkbox">
+									<input type="radio" name="condition" value="Start" data-label="Формат участия" checked>
 									<span>Start</span>
 								</label>
 							</div>
-							<div class="grid-2">
+							<div class="grid-2 condition__price-wrap">
 								<span class="condition__price">0 рублей</span>
 							</div>
 							<div class="grid-8">
@@ -580,13 +580,13 @@
 							</div>
 						</div>
 						<div class="condition row">
-							<div class="grid-2">
-								<label>
-									<input type="radio" name="condition" value="Standart">
+							<div class="grid-2 condition__label-wrap">
+								<label class="style-checkbox">
+									<input type="radio" name="condition" value="Standart" data-label="Формат участия">
 									<span>Standart</span>
 								</label>
 							</div>
-							<div class="grid-2">
+							<div class="grid-2 condition__price-wrap">
 								<span class="condition__price">1 000 рублей</span>
 							</div>
 							<div class="grid-8">
@@ -594,13 +594,13 @@
 							</div>
 						</div>
 						<div class="condition row">
-							<div class="grid-2">
-								<label>
-									<input type="radio" name="condition" value="Pro">
+							<div class="grid-2 condition__label-wrap">
+								<label class="style-checkbox">
+									<input type="radio" name="condition" value="Pro" data-label="Формат участия">
 									<span>Pro</span>
 								</label>
 							</div>
-							<div class="grid-2">
+							<div class="grid-2 condition__price-wrap">
 								<span class="condition__price">10 000 рублей</span>
 							</div>
 							<div class="grid-8">
@@ -613,8 +613,8 @@
 							<input type="email" class="input-text" name="email" placeholder="E-mail">
 							<button class="btn">Отправить</button>
 						</div>
-						<label class="style-checkbox">
-							<input type="checkbox" checked data-req="true" name="agree-terms">
+						<label class="style-checkbox style-checkbox--red">
+							<input type="checkbox" checked data-req="true" name="agree-terms" data-label="Согласен с условиями" value="Да">
 							<span>Я принимаю <a href="#" target="_blank">условия передачи информации</a></span>
 						</label>
 					</form>

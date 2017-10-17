@@ -35,39 +35,23 @@
 <div class="modals-sec">
 
 	<div id="modal-order-1" class="modal">
-		<p>Заказать обратный звонок</p>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
-		<form class="ajax-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя">
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" data-req="true">
-			<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
+		<p class="h6 purple-light">Принять участие</p>
+		<p class="modal__descr">Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
+		<form class="ajax-form vertical-form">
+			<input type="text" class="input-text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя">
+			<input type="email" class="input-text" name="user_email" placeholder="Введите e-mail*" data-label="Email" data-req="true">
+			<input type="tel" class="input-text" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
 			<input type="hidden" value="Новая заявка" name="form_subject">
 			<button type="submit" class="btn">Отправить</button>
-			<a href="#" class="btn">Отправить</a>
-		</form>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
-	</div>
-
-	<div id="modal-order-2" class="modal">
-		<p>Заказать обратный звонок</p>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
-		<form class="ajax-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя">
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" data-req="true">
-			<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
-			<input type="hidden" value="Новая заявка" name="form_subject">
-			<button type="submit" class="btn">Отправить</button>
-			<a href="#" class="btn">Отправить</a>
+			<label class="style-checkbox style-checkbox--red">
+				<input type="checkbox" checked data-req="true" name="agree-terms" data-label="Согласен с условиями" value="Да">
+				<span>Я принимаю <a href="#" target="_blank">условия передачи информации</a></span>
+			</label>
 		</form>
 	</div>
 
 	<div id="modal-thanks" class="modal">
-		<p>Спасибо за заявку!</p>
+		<p class="h3">Спасибо за заявку!</p>
 	</div>
 
 </div>

@@ -113,4 +113,19 @@
 			width: 362px;
 		}
 	}
+	
+	&.anim{
+		transform: translate3d(-250px,150px,0);
+		transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
+		@include res(xl){
+			transform: translate3d(-150px,100px,0);
+		}
+		@include res(l){
+			transform: none;
+		}
+		
+		&.animated{
+			transform: none;
+		}
+	}
 }
