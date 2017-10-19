@@ -4,7 +4,7 @@
 			<div class="grid-4 grid-3_m grid-6_s">
 				<div class="footer__copyright">
 					<p>© 2013 - 2017 Фабрика Предпринимательства</p>
-					<a href="#" class="fancy" data-src="#modal-politycs">Политика конфиденциальности</a>
+					<a href="/politica.pdf" target="_blank">Политика конфиденциальности</a>
 				</div>
 			</div>
 			<div class="grid-3 grid-2_m grid-6_s">

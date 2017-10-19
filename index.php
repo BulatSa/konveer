@@ -36,8 +36,8 @@
 		<div class="intro-top">
 			<span class="intro-top__what">Семинар — практикум</span>
 			<?php include('img/text-logo.svg'); ?>
-			<p class="intro-top__descr">Ключевые руководства к&nbsp;действию от&nbsp;предпринимателей с&nbsp;доходом&nbsp;от&nbsp;1.000.000 рублей на&nbsp;одной площадке</p>
-			<a href="#" class="fancy btn" data-src="#modal-order-1">Принять участие</a>
+			<p class="intro-top__descr">Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 ₽ за один вечер</p>
+			<a href="#" class="fancy btn" data-src="#m odal-order-1">Принять участие</a>
 		</div>
 
 		<div class="intro-bottom">
@@ -65,12 +65,16 @@
 
 		<div class="for-content">
 			<h6 class="h6 purple">для кого это</h6>
-			<h3 class="h3">Ежедневно каждый предприниматель сталкивается с большим количеством задач, решить которые не получается самостоятельно</h3>
-			<p>Поиск клиентов, наим сотрудников, обработка заказов, поиск поставщиков, а как же налоги, финансы, бухгалтерия. Это далеко не все, с чем сталкиваются большинство. Как же выйти из этих бегов? Бывыет достаточно одного совета, одной встречи, одного звонка или знакомства, которое координально нас сподвигает на новый уровень. Взгляд со стороны бизнесмена, который прошел все это и вышел на новую орбиту — вот чего не хватает каждый день.  Именно об этом и будет наш семинар-практикум.</p>
+			<h3 class="h3">Вы каждый день сталкиваетесь с огромным количеством проблем и вопросов, которые почти некому задать</h3>
+			<h6 class="h6 purple-light">Где найти клиентов?<br>
+				Как найти нормального продажника?<br>
+				Как заставить подрядчика работать в срок?</h6>
+			<p>Неправильные решения отбрасывают ваш бизнес назад и заставляют вас заниматься их последствиями. В таких условиях компания не развивается и стоит на месте.
+				Но один правильный ответ от опытного бизнесмена поможет вам решить эти проблемы. Мы познакомим вас с ним, он посмотрит на ваше дело со стороны и даст вам полезный совет.</p>
 		</div>
 
 		<div class="for-bottom">
-			<h3 class="h3">У тебя есть уникальная возможность найти решения своих вопросов от бизнесменов достойного уровня</h3>
+			<h3 class="h3">Примите участие в Бизнес-конвейере и получите ответы на свои вопросы от известных бизнесменов</h3>
 			<a href="#" class="fancy btn" data-src="#modal-order-1">Принять участие</a>
 		</div>
 
@@ -83,7 +87,7 @@
 		<h6 class="h6 purple">Хэдлайнер</h6>
 		<p class="h1">3 РАЗБОРА <small>от Александра Кравцова</small></p>
 		<h6 class="h6 purple-light">Президент группы компаний «Руян», создатель и владелец бренда «Экспедиция»</h6>
-		<p class="s-headliner__text">Встреча с Александром Кравцовым доступна не всем. Человек-бренд. Мы все его знаем по бренду “Экспедиция”, которую он основал в 2000-х годах. У тебя есть возможность задать ему вопросы и попросить рассмотреть твой  бизнес. И не важно на каком ты уровне: 100 000+, 300 000+, 1 000 000+, Александр даст ключевой совет к достижению твоих целей.</p>
+		<p class="s-headliner__text">С Александром не так легко встретиться в повседневной жизни. Основатель бренда «Экспедиция», основанного 17 лет назад – очень занятой человек. Но все проблемы, с которыми вы сталикиваетесь сейчас, Александр решал не один раз. Он даст полезный совет и поможет добиться ваших целей.</p>
 		<a href="#" class="fancy btn" data-src="#modal-order-1">Записаться на разбор</a>
 	</div>
 </section>
@@ -97,66 +101,105 @@
 		<div class="row">
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/1.png" alt="1">
-					<span class="h4 hero__name">Айдар Булатов</span>
+					<img src="/img/team/1.jpg" alt="Сергей Акульчев">
+					<span class="h4 hero__name">Сергей Акульчев</span>
+					<p class="hero__descr">Основатель Кондитерской фабрики  «Акульчев»</p>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_s grid-12_xs">
+				<div class="hero anim">
+					<img src="/img/team/2.jpg" alt="Кирилл Доронин">
+					<span class="h4 hero__name">Кирилл Доронин</span>
+					<p class="hero__descr">Бизнес тренер. Завод по розливу воды</p>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_s grid-12_xs">
+				<div class="hero anim">
+					<img src="/img/team/3.jpg" alt="Александр Скуратовский">
+					<span class="h4 hero__name">Александр Скуратовский</span>
+					<p class="hero__descr">Предприниматель, инвестор, коуч</p>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_s grid-12_xs">
+				<div class="hero anim">
+					<img src="/img/team/4.jpg" alt="Айдар Исмагилов">
+					<span class="h4 hero__name">Айдар Исмагилов</span>
+					<p class="hero__descr">Сеть автомоек «Мойдодыр»
+						и шиномонтажей «5колесо»</p>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_s grid-12_xs">
+				<div class="hero anim">
+					<img src="/img/team/5.jpg" alt="Анна Грушина">
+					<span class="h4 hero__name">Анна Грушина</span>
+					<p class="hero__descr">Сеть детских клиник "Добрый Доктор"</p>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_s grid-12_xs">
+				<div class="hero anim">
+					<img src="/img/team/6.jpg" alt="Дмитрий Денисов">
+					<span class="h4 hero__name">Дмитрий Денисов</span>
 					<p class="hero__descr">Венчурный инвестор. Владелец более 20 ресторанов в Казани, Москве и Питере.</p>
-					<p class="hero__tags">#масштабирование #ресторанный бизнес</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/2.png" alt="1">
-					<span class="h4 hero__name">Сергей Шубин</span>
-					<p class="hero__descr">Сеть технических центров "Автолига"</p>
-					<p class="hero__tags">#делегирование #спорт  #автобизнес</p>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_s grid-12_xs">
-				<div class="hero anim">
-					<img src="/img/team/3.png" alt="1">
+					<img src="/img/team/7.jpg" alt="Айдар Булатов">
 					<span class="h4 hero__name">Айдар Булатов</span>
-					<p class="hero__descr">Венчурный инвестор. Владелец более 20 ресторанов в Казани, Москве и Питере.</p>
-					<p class="hero__tags">#масштабирование #ресторанный бизнес</p>
+					<p class="hero__descr">Ресторатор. Основатель проекта
+						«Фабрика Предпринимательства»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/1.png" alt="1">
-					<span class="h4 hero__name">Айдар Булатов</span>
-					<p class="hero__descr">Венчурный инвестор. Владелец более 20 ресторанов в Казани, Москве и Питере.</p>
-					<p class="hero__tags">#масштабирование #ресторанный бизнес</p>
+					<img src="/img/team/8.jpg" alt="Ильназ Набиуллин">
+					<span class="h4 hero__name">Ильназ Набиуллин</span>
+					<p class="hero__descr">Сеть мужских украшений «Gentlz»,
+						женских украшений «Zifa», инновационных
+						парикмахерских «Chio-Chio»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/2.png" alt="1">
-					<span class="h4 hero__name">Сергей Шубин</span>
-					<p class="hero__descr">Сеть технических центров "Автолига"</p>
-					<p class="hero__tags">#делегирование #спорт  #автобизнес</p>
+					<img src="/img/team/9.jpg" alt="Дмитрий Жалдак">
+					<span class="h4 hero__name">Дмитрий Жалдак</span>
+					<p class="hero__descr">Брендинговое агентство «Pen&Brain»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/3.png" alt="1">
-					<span class="h4 hero__name">Айдар Булатов</span>
-					<p class="hero__descr">Венчурный инвестор. Владелец более 20 ресторанов в Казани, Москве и Питере.</p>
-					<p class="hero__tags">#масштабирование #ресторанный бизнес</p>
+					<img src="/img/team/10.jpg" alt="Артур Романенко">
+					<span class="h4 hero__name">Артур Романенко</span>
+					<p class="hero__descr">Aportal.pro. Специалист по формированию бизнес-процессов</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/1.png" alt="1">
-					<span class="h4 hero__name">Айдар Булатов</span>
-					<p class="hero__descr">Венчурный инвестор. Владелец более 20 ресторанов в Казани, Москве и Питере.</p>
-					<p class="hero__tags">#масштабирование #ресторанный бизнес</p>
+					<img src="/img/team/11.jpg" alt="Ильяс Валиуллин">
+					<span class="h4 hero__name">Ильяс Валиуллин</span>
+					<p class="hero__descr">Блоггер. Сеть каляьнных «Мята»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/2.png" alt="1">
-					<span class="h4 hero__name">Сергей Шубин</span>
-					<p class="hero__descr">Сеть технических центров "Автолига"</p>
-					<p class="hero__tags">#делегирование #спорт  #автобизнес</p>
+					<img src="/img/team/12.jpg" alt="Максим Гральник">
+					<span class="h4 hero__name">Максим Гральник</span>
+					<p class="hero__descr">Соучредитель «Магазин франшиз
+						Братьев Гральников»</p>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_s grid-12_xs">
+				<div class="hero anim">
+					<img src="/img/team/13.jpg" alt="Игорь Мгеладзе">
+					<span class="h4 hero__name">Игорь Мгеладзе</span>
+					<p class="hero__descr">Предприниматель, инвестор, ментор</p>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_s grid-12_xs">
+				<div class="hero anim">
+					<img src="/img/team/14.jpg" alt="Сергей Голубцов">
+					<span class="h4 hero__name">Сергей Голубцов</span>
+					<p class="hero__descr">Блоггер. Сеть каляьнных «Мята»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
@@ -164,7 +207,6 @@
 					<img src="/img/team/thumb.png" alt="1">
 					<span class="h4 hero__name">Секретный спикер</span>
 					<p class="hero__descr">Государственный деятель</p>
-					<p class="hero__tags">#засекречено</p>
 				</div>
 			</div>
 		</div>
@@ -178,8 +220,8 @@
 			<div class="grid-6 grid-12_m">
 				<h6 class="h6 purple">формат твоей эффективности</h6>
 				<?php include('img/text-logo.svg'); ?>
-				<p class="h3">— это семинар-практикум.<br>Только ты и твои вопросы.<br>Ничего лишнего.</p>
-				<p>Ты устал от нудных лекций, мастер-классов, бизнес историй, которые не как не подходят под твой формат бизнеса или которые не возможно с масштабировать на твои проблемы?! Мы предлагаем другой формат. Минимум историй спикеров, максимум разбор твоих задач. Поэтому так мало мы написали о спикерах, если будет желание, можешь набрать их в google и тебе все станет понятно.</p>
+				<p class="h3">это семинар, рассчитанный на вас. Вы задаете вопросы – наставники отвечают. Больше никакой теории.</p>
+				<p>Да, мы не будем проводить лекции и мастер-классы, не будем рассказывать истории, которые нельзя масштабировать на ваш бизнес. Мы не будем повторять то, что все и так знают. У нас другой формат. Ты приходишь к наставнику с проблемой, они отвечают. Ничего лишнего.</p>
 
 				<div class="timeline anim">
 					<div class="timeline-item anim">
@@ -233,19 +275,19 @@
 		<div class="row">
 			<div class="grid-8 grid-12_m">
 				<h6 class="h6 purple">бизнес конвейер в действии</h6>
-				<p class="h1">топ-7 тем для обсужде&shy;ния</p>
+				<p class="h1">Темы,которые	обсуждают чаще	всего</p>
 			</div>
 		</div>
 	</div>
 	<div class="themes-stage">
 		<div class="themes-stage__list">
-			<span class="themes-stage__item-1 anim">1. Выход из зоны комфорта и постановка цели</span>
-			<span class="themes-stage__item-2 anim">2. Точечные действия и масштабирование</span>
-			<span class="themes-stage__item-3 anim">3. Автоматизация бизнес процессов. Упаковка бизнеса</span>
-			<span class="themes-stage__item-4 anim">4. Вдохновение и свой путь</span>
-			<span class="themes-stage__item-5 anim">5. Оттачивание действий </span>
-			<span class="themes-stage__item-6 anim">6. Выстроить гипотезы</span>
-			<span class="themes-stage__item-7 anim">7. Система&shy;тизированные знания и опыт</span>
+			<span class="themes-stage__item-1 anim">1. Как заставить себя выйти из зоны комфорта</span>
+			<span class="themes-stage__item-2 anim">2. Какие действия помогают бизнесу взлететь</span>
+			<span class="themes-stage__item-3 anim">3. Как втоматизировать свой бизнес – делать меньше и получать больше</span>
+			<span class="themes-stage__item-4 anim">4. Как выбрать свой путь и радоваться тому, что делаешь</span>
+			<span class="themes-stage__item-5 anim">5. Как тратить меньше сил и зарабатывать больше денег</span>
+			<span class="themes-stage__item-6 anim">6. В какую сторону двигаться вашему бизнесу дальше</span>
+			<span class="themes-stage__item-7 anim">7. Кто поделится собранным и упакованным опытом в вашей нише</span>
 			<span class="themes-stage__item-8 anim">Курс Фабрика&nbsp;Pro</span>
 		</div>
 	</div>
@@ -541,7 +583,7 @@
 				<div class="contest__info">
 					<h6 class="h6 purple">комплексный подъем бизнеса</h6>
 					<p class="h1">Фабрика pro</p>
-					<h6 class="h6 purple-light">— программа для неизбежного подъема личности и бизнеса для предпринимателей с доходом 300.000+</h6>
+					<h6 class="h6 purple-light">программа для тех, кто зарабатывает от 300 000 рублей в месяц и готов перейти на новый уровень</h6>
 					<div class="contest__text">
 						<p class="h3">Любой участник на Бизнес Конвейере <span class="green-col">может выиграть</span> один из трех сертификатов на прохождение курса Фабрики Pro. </p>
 					</div>
@@ -602,29 +644,30 @@
 			</div>
 			<div class="grid-6 grid-12_s">
 				<div class="facts__text">
-					<p>В 2012 году мы запустили проект «Фабрика Предпринимательства» и благодаря ему более 300 участников создали свой бизнес, а уже действующие предприниматели увеличили свою прибыль более чем в 2 раза. Спустя время мы увидели, что начинающие предприниматели не всегда могут самостоятельно выбраться из стартового хаоса, создать чёткую структуру своего бизнеса, снизить своё участие в</p>
+					<p>В 2012 году появилась Фабрика предпринимательства – уникальный курс по созданию и улучшению бизнеса. Мы строили его вокруг практики. Пока вокруг общительные теоретики делились историями, мы сводили начинающих предпринимателей с опытными бизнесменами, которые помогали им преодолеть проблемы и выйти на </p>
 				</div>
 			</div>
 			<div class="grid-6 grid-12_s">
 				<div class="facts__text">
-					<p>бизнесе и, главное, увеличить свой доход. Чтобы помочь предпринимателям, мы, объединив практические знания в области бизнеса и уникальную методику взаимодействия начинающих предпринимателей с успешными действующими бизнесменами, доход которых превышает более 1 млн рублей в месяц, создали специальные образовательные курсы.</p>
+					<p>новый уровень. Спустя 5 лет Фабрика предпринимательства стала глобальным всероссийским движением, которое все так же помогает людям построить успешный бизнес.</p>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_s facts__item">
-				<span>21 000 +</span>
+				<span>22 500 +</span>
 				<p class="h6">человек посетили наши события</p>
 			</div>
 			<div class="grid-3 grid-6_s facts__item">
-				<span>500 +</span>
+				<span>850 +</span>
 				<p class="h6">запустили бизнес с&nbsp;наставниками</p>
 			</div>
 			<div class="grid-3 grid-6_s facts__item">
-				<span>87 +</span>
-				<p class="h6">предпринимателей-наставников</p>
+				<span>150 +</span>
+				<p class="h6">партнеров</p>
 			</div>
 			<div class="grid-3 grid-6_s facts__item">
-				<span>2 000 +</span>
-				<p class="h6">Создано компаний</p>
+				<span>120 млн</span>
+				<p class="h6">человек аудитория реалити-шоу «Фабрика
+					Предпринимательства»</p>
 			</div>
 			<div class="grid-12">
 				<div class="facts__man anim">
@@ -640,52 +683,10 @@
 	<div class="order container">
 		<div class="row">
 			<div class="grid-12">
-				<h6 class="h6 purple">Условия участия</h6>
-				<p class="h1">Формат участия</p>
+				<h6 class="h6 purple">оставьте заявку</h6>
+				<p class="h1">Принять участие</p>
 				<div class="order__form">
 					<form class="ajax-form">
-						<div class="condition row">
-							<div class="grid-2 condition__label-wrap">
-								<label class="style-checkbox">
-									<input type="radio" name="condition" value="Start" data-label="Формат участия" checked>
-									<span>Start</span>
-								</label>
-							</div>
-							<div class="grid-2 condition__price-wrap">
-								<span class="condition__price">0 рублей</span>
-							</div>
-							<div class="grid-8">
-								<span class="condition__descr">Участие в зале | Не фиксированные места | Еще что нибудь</span>
-							</div>
-						</div>
-						<div class="condition row">
-							<div class="grid-2 condition__label-wrap">
-								<label class="style-checkbox">
-									<input type="radio" name="condition" value="Standart" data-label="Формат участия">
-									<span>Standart</span>
-								</label>
-							</div>
-							<div class="grid-2 condition__price-wrap">
-								<span class="condition__price">1 000 рублей</span>
-							</div>
-							<div class="grid-8">
-								<span class="condition__descr">Забронированное место | Ужин</span>
-							</div>
-						</div>
-						<div class="condition row">
-							<div class="grid-2 condition__label-wrap">
-								<label class="style-checkbox">
-									<input type="radio" name="condition" value="Pro" data-label="Формат участия">
-									<span>Pro</span>
-								</label>
-							</div>
-							<div class="grid-2 condition__price-wrap">
-								<span class="condition__price">10 000 рублей</span>
-							</div>
-							<div class="grid-8">
-								<span class="condition__descr">Забронированное место | Разбор от Александра Кравтцова | Ужин</span>
-							</div>
-						</div>
 						<div class="order__inputs">
 							<input type="text" class="input-text" name="name" placeholder="Ваше имя">
 							<input type="tel" class="input-text" name="phone" placeholder="Телефон*" data-req="true">
@@ -695,7 +696,7 @@
 						</div>
 						<label class="style-checkbox style-checkbox--red">
 							<input type="checkbox" checked data-req="true" name="agree-terms" data-label="Согласен с условиями" value="Да">
-							<span>Я принимаю <a href="#" class="fancy" data-src="#modal-politycs">условия передачи информации</a></span>
+							<span>Я принимаю <a href="/politica.pdf" target="_blank">условия передачи информации</a></span>
 						</label>
 					</form>
 				</div>
