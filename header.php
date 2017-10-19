@@ -28,7 +28,7 @@
 
 	<!-- og -->
 	<meta property="og:title" content="Бизнес конвеqер">
-	<meta property="og:description" content="Ключевые руководства к действию от предпринимателей с доходом от 1.000.000 рублей на одной площадке">
+	<meta property="og:description" content="Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 рублей за один вечер">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="<?=$_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST']."/img/og.jpg";?>">
 	<!-- og -->

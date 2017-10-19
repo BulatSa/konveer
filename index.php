@@ -36,7 +36,7 @@
 		<div class="intro-top">
 			<span class="intro-top__what">Семинар — практикум</span>
 			<?php include('img/text-logo.svg'); ?>
-			<p class="intro-top__descr">Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 ₽ за один вечер</p>
+			<p class="intro-top__descr">Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 рублей за один вечер</p>
 			<a href="#" class="fancy btn" data-src="#m odal-order-1">Принять участие</a>
 		</div>
 
@@ -633,7 +633,7 @@
 <section class="s-facts" id="s-facts">
 	<div class="facts-video">
 		<video autoplay loop muted>
-			<source src="/video/video.mp4" type=video/mp4>
+			<source src="/video/video-new.mp4" type=video/mp4>
 		</video>
 	</div>
 	<div class="facts container">
@@ -642,14 +642,9 @@
 				<h6 class="h6 purple">Организатор</h6>
 				<img src="img/logo-white.svg" alt="" class="facts__logo">
 			</div>
-			<div class="grid-6 grid-12_s">
+			<div class="grid-12">
 				<div class="facts__text">
-					<p>В 2012 году появилась Фабрика предпринимательства – уникальный курс по созданию и улучшению бизнеса. Мы строили его вокруг практики. Пока вокруг общительные теоретики делились историями, мы сводили начинающих предпринимателей с опытными бизнесменами, которые помогали им преодолеть проблемы и выйти на </p>
-				</div>
-			</div>
-			<div class="grid-6 grid-12_s">
-				<div class="facts__text">
-					<p>новый уровень. Спустя 5 лет Фабрика предпринимательства стала глобальным всероссийским движением, которое все так же помогает людям построить успешный бизнес.</p>
+					<p>В 2012 году появилась Фабрика предпринимательства – уникальный курс по созданию и улучшению бизнеса. Мы строили его вокруг практики. Пока вокруг общительные теоретики делились историями, мы сводили начинающих предпринимателей с опытными бизнесменами, которые помогали им преодолеть проблемы и выйти на новый уровень. Спустя 5 лет Фабрика предпринимательства стала глобальным всероссийским движением, которое все так же помогает людям построить успешный бизнес.</p>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_s facts__item">
@@ -688,7 +683,7 @@
 				<div class="order__form">
 					<form class="ajax-form">
 						<div class="order__inputs">
-							<input type="text" class="input-text" name="name" placeholder="Ваше имя">
+							<input type="text" class="input-text" name="name" placeholder="Имя">
 							<input type="tel" class="input-text" name="phone" placeholder="Телефон*" data-req="true">
 							<input type="email" class="input-text" name="email" placeholder="E-mail">
 							<input type="hidden" value="Новая заявка" name="form_subject">
