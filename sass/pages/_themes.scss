@@ -1,5 +1,10 @@
 .s-themes {
 	padding: 80px 0;
+	.btn-center {
+		@include res(s) {
+			padding-top: 15px;
+		}
+	}
 }
 
 .themes-stage {

@@ -1,7 +1,7 @@
 .s-contest {
 	padding-top: 140px;
 	@include res(m) {
-		padding-top: 40px;
+		padding-top: 20px;
 	}
 }
 
@@ -17,11 +17,8 @@
 		transform: scale(0.5);
 	}
 	@include res(m) {
-		display: none;
-	}
-	svg {
-		position: absolute;
-
+		//display: none;
+		transform: scale(1);
 	}
 }
 
@@ -58,17 +55,39 @@
 }
 
 .contest__man {
+	position: absolute;
 	right: 37%;
 	bottom: 500px;
 	z-index: 1;
+	@include res(m) {
+		display: none;
+	}
+}
+
+.contest__man-short {
+	display: none;
+	@include res(m) {
+		position: relative;
+		display: block;
+		width: 328px;
+		height: 327px;
+	}
+	@include res(s) {
+		width: 270px;
+		height: 266px;
+	}
 }
 
 .contest__transformer {
+	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	margin: 0 auto;
 	z-index: 0;
+	@include res(m) {
+		display: none;
+	}
 }
 
 .transformer-topper {}

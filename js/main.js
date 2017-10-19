@@ -235,63 +235,122 @@ $(document).ready(function() {
 	//time
 
 	// Transformer
-	TweenMax.set('.transformer-topper',{
-		y: 50
-	});
-	TweenMax.set('.transformer-middler',{
-		scaleY: 0.1,
-		transformOrigin: "center bottom"
-	});
-	TweenMax.set('.contest__man',{
-		y: 300
-	});
-	TweenMax.set('.contest__man-cape',{
-		skewY: -35,
-		skewX: -15,
-		transformOrigin: "right 20%",
-	});
-
-	var lift_tween = new TimelineMax({
-		paused: true
-	});
-	lift_tween
-		.to('.transformer-topper', 1, {
-			y: 0,
-			ease: Expo.easeInOut
-		},0)
-		.to('.transformer-middler', 1, {
-			scaleY: 1,
-			transformOrigin: "center bottom",
-			ease: Expo.easeInOut
-		},0)
-		.to('.contest__man', 1, {
-			y: 0,
-			ease: Expo.easeInOut
-		},0)
-		.to('.contest__man-cape', 1, {
-			skewY: 0,
-			skewX: 0,
-			transformOrigin: "right 20%",
-			ease: Expo.easeInOut
-		},0)
-		.to('.contest__man-cape', 2, {
-			skewY: -10,
-			skewX: -2,
-			scaleX: 1.05,
-			scaleY: 0.9,
-			transformOrigin: "right 20%",
-			ease: Sine.easeInOut,
-			repeat:-1, yoyo:true
+	function tweenContestMan() {
+		TweenMax.set('.transformer-topper',{
+			y: 50
 		});
-	$('.contest').waypoint(function (direction) {
-		if (direction === "down"){
-			lift_tween.play();
+		TweenMax.set('.transformer-middler',{
+			scaleY: 0.1,
+			transformOrigin: "center bottom"
+		});
+		TweenMax.set('.contest__man',{
+			y: 300
+		});
+		TweenMax.set('.contest__man-cape',{
+			skewY: -35,
+			skewX: -15,
+			transformOrigin: "right 20%",
+		});
+
+		var lift_tween = new TimelineMax({
+			paused: true
+		});
+		lift_tween
+			.to('.transformer-topper', 1, {
+				y: 0,
+				ease: Expo.easeInOut
+			},0)
+			.to('.transformer-middler', 1, {
+				scaleY: 1,
+				transformOrigin: "center bottom",
+				ease: Expo.easeInOut
+			},0)
+			.to('.contest__man', 1, {
+				y: 0,
+				ease: Expo.easeInOut
+			},0)
+			.to('.contest__man-cape', 1, {
+				skewY: 0,
+				skewX: 0,
+				transformOrigin: "right 20%",
+				ease: Expo.easeInOut
+			},0)
+			.to('.contest__man-cape', 2, {
+				skewY: -10,
+				skewX: -2,
+				scaleX: 1.05,
+				scaleY: 0.9,
+				transformOrigin: "right 20%",
+				ease: Sine.easeInOut,
+				repeat:-1, yoyo:true
+			});
+		$('.contest').waypoint(function (direction) {
+			if (direction === "down"){
+				lift_tween.play();
+			} else {
+				lift_tween.reverse(1);
+			}
+		}, {
+			offset: '30%'
+		});
+	}
+
+	function tweenContestManShort() {
+		TweenMax.set('.contest__man-short',{
+			y: 0
+		});
+		TweenMax.set('.contest__man-short-cape',{
+			skewY: -35,
+			skewX: -15,
+			transformOrigin: "right 20%",
+		});
+
+		var lift_tween = new TimelineMax({
+			paused: true
+		});
+		lift_tween
+			.to('.contest__man-short', 1, {
+				y: 0,
+				ease: Expo.easeInOut
+			},0)
+			.to('.contest__man-short-cape', 1, {
+				skewY: 0,
+				skewX: 0,
+				transformOrigin: "right 20%",
+				ease: Expo.easeInOut
+			},0)
+			.to('.contest__man-short-cape', 2, {
+				skewY: -10,
+				skewX: -2,
+				scaleX: 1.05,
+				scaleY: 0.9,
+				transformOrigin: "right 20%",
+				ease: Sine.easeInOut,
+				repeat:-1, yoyo:true
+			});
+		$('.contest').waypoint(function (direction) {
+			if (direction === "down"){
+				lift_tween.play();
+			} else {
+				lift_tween.reverse(1);
+			}
+		}, {
+			offset: '30%'
+		});
+	}
+
+	if($(window).width() > 770) {
+		tweenContestMan();
+	} else {
+		tweenContestManShort();
+	}
+	$(window).on('resize', function () {
+		if($(window).width() > 770) {
+			tweenContestMan();
 		} else {
-			lift_tween.reverse(1);
+			tweenContestManShort();
 		}
-	}, {
-		offset: '30%'
-	});
+	})
 
 });
 /***********************
