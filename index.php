@@ -45,7 +45,7 @@
 			<div class="intro-date">
 				<span>октября</span>
 				<span>19:00</span>
-				<a href="https://yandex.ru/map-widget/v1/-/CBUhURfPKD" class="fancy-map" data-type="iframe">Схема проезда <img src="/img/pin.svg" alt="pin"></a>
+				<a href="https://yandex.ru/map-widget/v1/-/CBUhURfPKD" class="fancy-map" data-type="iframe">Москва «Точка Кипения» <img src="/img/pin.svg" alt="pin"></a>
 			</div>
 		</div>
 
@@ -87,6 +87,7 @@
 		<h6 class="h6 purple">Хэдлайнер</h6>
 		<p class="h1">3 РАЗБОРА <small>от Александра Кравцова</small></p>
 		<h6 class="h6 purple-light">Президент группы компаний «Руян», создатель и владелец бренда «Экспедиция»</h6>
+		<img src="img/headliner/bg.png" alt="" class="headliner__img">
 		<p class="s-headliner__text">С Александром не так легко встретиться в повседневной жизни. Основатель бренда «Экспедиция», основанного 17 лет назад – очень занятой человек. Но все проблемы, с которыми вы сталикиваетесь сейчас, Александр решал не один раз. Он даст полезный совет и поможет добиться ваших целей.</p>
 		<a href="#" class="fancy btn" data-src="#modal-order-1">Записаться на разбор</a>
 	</div>
@@ -132,14 +133,14 @@
 				<div class="hero anim">
 					<img src="/img/team/5.jpg" alt="Анна Грушина">
 					<span class="h4 hero__name">Анна Грушина</span>
-					<p class="hero__descr">Сеть детских клиник "Добрый Доктор"</p>
+					<p class="hero__descr">Сеть детских клиник «Добрый Доктор»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/6.jpg" alt="Дмитрий Денисов">
 					<span class="h4 hero__name">Дмитрий Денисов</span>
-					<p class="hero__descr">Венчурный инвестор. Владелец более 20 ресторанов в Казани, Москве и Питере.</p>
+					<p class="hero__descr">Эвотор. Онлайн кассы, Smart терминалы</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
@@ -199,7 +200,7 @@
 				<div class="hero anim">
 					<img src="/img/team/14.jpg" alt="Сергей Голубцов">
 					<span class="h4 hero__name">Сергей Голубцов</span>
-					<p class="hero__descr">Блоггер. Сеть каляьнных «Мята»</p>
+					<p class="hero__descr">Предприниматель, учредитель компании	«Новое Место»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
@@ -275,7 +276,7 @@
 		<div class="row">
 			<div class="grid-8 grid-12_m">
 				<h6 class="h6 purple">бизнес конвейер в действии</h6>
-				<p class="h1">Темы,которые	обсуждают чаще	всего</p>
+				<p class="h1">Темы, которые обсуждают чаще всего</p>
 			</div>
 		</div>
 	</div>

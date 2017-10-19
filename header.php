@@ -13,7 +13,7 @@
 
 
 	<title>Бизнес конвейер</title>
-	<meta name="description" content="Ключевые руководства к действию от предпринимателей с доходом от 1.000.000 рублей на одной площадке">
+	<meta name="description" content="Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 рублей за один вечер">
 
 	<!--favicons-->
 	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
@@ -27,7 +27,7 @@
 	<!--favicons-->
 
 	<!-- og -->
-	<meta property="og:title" content="Бизнес конвеqер">
+	<meta property="og:title" content="Бизнес конвейер">
 	<meta property="og:description" content="Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 рублей за один вечер">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="<?=$_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST']."/img/og.jpg";?>">

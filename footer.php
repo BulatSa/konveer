@@ -23,7 +23,7 @@
 			</div>
 			<div class="grid-2 grid-3_m grid-6_s grid-12_xs">
 				<a href="https://penbrain.ru/" target="_blank" class="footer__studio">
-					<img src="img/logo-pb.png" alt="Сайт создан в Pen&Brain">
+					<img src="img/logo-pb-new.svg" alt="Сайт создан в Pen&Brain">
 				</a>
 			</div>
 		</div>
