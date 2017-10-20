@@ -4,7 +4,7 @@
 			<div class="grid-4 grid-3_m grid-6_s">
 				<div class="footer__copyright">
 					<p>© 2013 - 2017 Фабрика Предпринимательства</p>
-					<a href="#" class="fancy" data-src="#modal-politycs">Политика конфиденциальности</a>
+					<a href="/politica.pdf" target="_blank">Политика конфиденциальности</a>
 				</div>
 			</div>
 			<div class="grid-3 grid-2_m grid-6_s">
@@ -23,7 +23,7 @@
 			</div>
 			<div class="grid-2 grid-3_m grid-6_s grid-12_xs">
 				<a href="https://penbrain.ru/" target="_blank" class="footer__studio">
-					<img src="img/logo-pb.png" alt="Сайт создан в Pen&Brain">
+					<img src="img/logo-pb-new.svg" alt="Сайт создан в Pen&Brain">
 				</a>
 			</div>
 		</div>

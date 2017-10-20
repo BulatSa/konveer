@@ -1,6 +1,9 @@
 .s-facts {
 	position: relative;
 	overflow: hidden;
+	@include res(s) {
+		padding-top: 30px;
+	}
 }
 
 .facts {}

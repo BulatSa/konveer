@@ -36,3 +36,12 @@
 		margin-top: 50px;
 	}
 }
+
+.headliner__img {
+	display: none;
+	@include res(s) {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}

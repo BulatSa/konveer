@@ -13,7 +13,7 @@
 
 
 	<title>Бизнес конвейер</title>
-	<meta name="description" content="Ключевые руководства к действию от предпринимателей с доходом от 1.000.000 рублей на одной площадке">
+	<meta name="description" content="Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 рублей за один вечер">
 
 	<!--favicons-->
 	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
@@ -27,14 +27,44 @@
 	<!--favicons-->
 
 	<!-- og -->
-	<meta property="og:title" content="Бизнес конвеqер">
-	<meta property="og:description" content="Ключевые руководства к действию от предпринимателей с доходом от 1.000.000 рублей на одной площадке">
+	<meta property="og:title" content="Бизнес конвейер">
+	<meta property="og:description" content="Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 рублей за один вечер">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="<?=$_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST']."/img/og.jpg";?>">
 	<!-- og -->
 
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+		(function (d, w, c) {
+			(w[c] = w[c] || []).push(function() {
+				try {
+					w.yaCounter46318980 = new Ya.Metrika({
+						id:46318980,
+						clickmap:true,
+						trackLinks:true,
+						accurateTrackBounce:true,
+						webvisor:true
+					});
+				} catch(e) { }
+			});
+
+			var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function () { n.parentNode.insertBefore(s, n); };
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false);
+			} else { f(); }
+		})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/46318980" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 </head>
 
 <body>

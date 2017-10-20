@@ -81,7 +81,6 @@
 	transition: all 0.3s ease;
 	@include res(s) {
 		display: block;
-		text-align: center;
 	}
 	@include res(xs) {
 		padding-top: 10px;

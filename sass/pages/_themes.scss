@@ -1,5 +1,10 @@
 .s-themes {
 	padding: 80px 0;
+	.btn-center {
+		@include res(s) {
+			padding-top: 15px;
+		}
+	}
 }
 
 .themes-stage {
@@ -177,7 +182,7 @@
 		left: 78%;
 	}
 	&:after {
-		top: -616%;
+		top: -166%;
 		left: -21%;
 		width: 260px;
 		height: 160px;
