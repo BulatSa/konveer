@@ -1,5 +1,8 @@
 .s-order {
 	padding-bottom: 80px;
+	@include res(s) {
+		padding-bottom: 60px;
+	}
 }
 
 .order {

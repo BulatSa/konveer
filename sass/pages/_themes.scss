@@ -1,5 +1,8 @@
 .s-themes {
 	padding: 80px 0;
+	@include res(s) {
+		padding-top: 40px;
+	}
 	.btn-center {
 		@include res(s) {
 			padding-top: 15px;

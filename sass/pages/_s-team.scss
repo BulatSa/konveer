@@ -1,6 +1,9 @@
 .s-team{
 	padding: 60px 0 0 0;
 	text-align: center;
+	@include res(s) {
+		padding-top: 40px;
+	}
 
 	.h6.purple{
 		margin-bottom: 0.5em;
@@ -31,6 +34,10 @@
 	&__name{
 		display: block;
 		margin-bottom: 0.5em;
+		transition: all 0.3s ease;
+		&:hover {
+			color: $green;
+		}
 	}
 
 	&__descr{

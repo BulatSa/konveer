@@ -37,7 +37,11 @@
 			<span class="intro-top__what">Семинар — практикум</span>
 			<?php include('img/text-logo.svg'); ?>
 			<p class="intro-top__descr">Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 рублей за один вечер</p>
-			<a href="#" class="fancy btn" data-src="#m odal-order-1">Принять участие</a>
+			<div class="intro-top__partner">
+				<span class="intro-top__what">При поддержке</span>
+				<img src="img/intro/logo-partner.png" alt="">
+			</div>
+			<a href="#" class="fancy btn" data-src="#modal-order-1">Принять участие</a>
 		</div>
 
 		<div class="intro-bottom">
@@ -102,51 +106,50 @@
 		<div class="row">
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
+					<img src="/img/team/15.jpg" alt="Эдгар Полькин">
+					<a href="https://www.facebook.com/edgione" target="_blank" class="h4 hero__name">Эдгар Полькин</a>
+					<p class="hero__descr">Модератор мероприятия «Бизнес Конвейер». Основатель Alumni Union </p>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_s grid-12_xs">
+				<div class="hero anim">
 					<img src="/img/team/1.jpg" alt="Сергей Акульчев">
-					<span class="h4 hero__name">Сергей Акульчев</span>
+					<a href="https://www.facebook.com/s.akulchev" target="_blank" class="h4 hero__name">Сергей Акульчев</a>
 					<p class="hero__descr">Основатель Кондитерской фабрики  «Акульчев»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/2.jpg" alt="Кирилл Доронин">
-					<span class="h4 hero__name">Кирилл Доронин</span>
+					<a href="https://vk.com/id97984210" target="_blank" class="h4 hero__name">Кирилл Доронин</a>
 					<p class="hero__descr">Бизнес тренер. Завод по розливу воды</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/3.jpg" alt="Александр Скуратовский">
-					<span class="h4 hero__name">Александр Скуратовский</span>
+					<a href="https://www.facebook.com/alexander.shenderov" target="_blank" class="h4 hero__name">Александр Скуратовский</a>
 					<p class="hero__descr">Предприниматель, инвестор, коуч</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/4.jpg" alt="Айдар Исмагилов">
-					<span class="h4 hero__name">Айдар Исмагилов</span>
-					<p class="hero__descr">Сеть автомоек «Мойдодыр»
-						и шиномонтажей «5колесо»</p>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_s grid-12_xs">
-				<div class="hero anim">
 					<img src="/img/team/5.jpg" alt="Анна Грушина">
-					<span class="h4 hero__name">Анна Грушина</span>
+					<a href="https://www.facebook.com/anna.grusina" target="_blank" class="h4 hero__name">Анна Грушина</a>
 					<p class="hero__descr">Сеть детских клиник «Добрый Доктор»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/6.jpg" alt="Дмитрий Денисов">
-					<span class="h4 hero__name">Дмитрий Денисов</span>
-					<p class="hero__descr">Эвотор. Онлайн кассы, Smart терминалы</p>
+					<a href="" target="_blank" class="h4 hero__name">Дмитрий Денисов</a>
+					<p class="hero__descr">Эвотор - Смарт-терминалы и решения для усовершенствования бизнеса</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/7.jpg" alt="Айдар Булатов">
-					<span class="h4 hero__name">Айдар Булатов</span>
+					<a href="https://www.facebook.com/aidar.bulatov" target="_blank" class="h4 hero__name">Айдар Булатов</a>
 					<p class="hero__descr">Ресторатор. Основатель проекта
 						«Фабрика Предпринимательства»</p>
 				</div>
@@ -154,7 +157,7 @@
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/8.jpg" alt="Ильназ Набиуллин">
-					<span class="h4 hero__name">Ильназ Набиуллин</span>
+					<a href="https://www.facebook.com/ilnaznabiullin" target="_blank" class="h4 hero__name">Ильназ Набиуллин</a>
 					<p class="hero__descr">Сеть мужских украшений «Gentlz»,
 						женских украшений «Zifa», инновационных
 						парикмахерских «Chio-Chio»</p>
@@ -163,50 +166,42 @@
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/9.jpg" alt="Дмитрий Жалдак">
-					<span class="h4 hero__name">Дмитрий Жалдак</span>
+					<a href="https://www.facebook.com/zhaldak" target="_blank" class="h4 hero__name">Дмитрий Жалдак</a>
 					<p class="hero__descr">Брендинговое агентство «Pen&Brain»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/10.jpg" alt="Артур Романенко">
-					<span class="h4 hero__name">Артур Романенко</span>
+					<a href="https://www.facebook.com/arthur.romanenko.7" target="_blank" class="h4 hero__name">Артур Романенко</a>
 					<p class="hero__descr">Aportal.pro. Специалист по формированию бизнес-процессов</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/11.jpg" alt="Ильяс Валиуллин">
-					<span class="h4 hero__name">Ильяс Валиуллин</span>
+					<a href="https://www.facebook.com/ilyasenjoy" target="_blank" class="h4 hero__name">Ильяс Валиуллин</a>
 					<p class="hero__descr">Блоггер. Сеть каляьнных «Мята»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/12.jpg" alt="Максим Гральник">
-					<span class="h4 hero__name">Максим Гральник</span>
-					<p class="hero__descr">Соучредитель «Магазин франшиз
-						Братьев Гральников»</p>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_s grid-12_xs">
-				<div class="hero anim">
 					<img src="/img/team/13.jpg" alt="Игорь Мгеладзе">
-					<span class="h4 hero__name">Игорь Мгеладзе</span>
+					<a href="https://www.facebook.com/MgeladzeIgor" target="_blank" class="h4 hero__name">Игорь Мгеладзе</a>
 					<p class="hero__descr">Предприниматель, инвестор, ментор</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/14.jpg" alt="Сергей Голубцов">
-					<span class="h4 hero__name">Сергей Голубцов</span>
+					<a href="https://www.facebook.com/sergey.golubtsov.792" target="_blank" class="h4 hero__name">Сергей Голубцов</a>
 					<p class="hero__descr">Предприниматель, учредитель компании	«Новое Место»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
 					<img src="/img/team/thumb.png" alt="1">
-					<span class="h4 hero__name">Секретный спикер</span>
+					<a href="" target="_blank" class="h4 hero__name">Секретный спикер</a>
 					<p class="hero__descr">Государственный деятель</p>
 				</div>
 			</div>

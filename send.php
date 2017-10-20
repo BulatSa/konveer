@@ -22,6 +22,7 @@ $mail->CharSet = 'utf-8';
 $mail->setFrom('no-reply@biz-razbor.ru', 'biz-razbor.ru');
 $mail->addAddress('gray005@yandex.ru');
 $mail->addAddress('sales@bizfabrika.pro');
+$mail->addAddress('alhimik-77@yandex.ru');
 $mail->isHTML(true);
 $mail->Subject = $subject;
 $mail->Body = $message;

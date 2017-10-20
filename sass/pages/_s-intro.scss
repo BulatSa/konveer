@@ -15,11 +15,11 @@
 		background-position: center center;
 	}
 	@include res(m){
-		height: auto;
+		height: initial;
 		min-height: 780px;
 	}
 	@include res(s){
-		min-height: 670px;
+		min-height: 800px;
 		padding-top: 30px;
 	}
 	@include res(xs){
@@ -62,13 +62,42 @@
 	&__descr{
 		font-size: 20px;
 		font-weight: 300;
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 		@include res(xl){
 			font-size: 16px;
 		}
 		@include res(xs){
 			font-size: 14px;
+			margin-bottom: 15px;
+		}
+	}
+}
+
+.intro-top__partner {
+	position: absolute;
+	top: 0;
+	right: 250px;
+	@include res(l) {
+		right: 11%;
+	}
+	@include res(m) {
+		right: 3%;
+	}
+	@include res(s) {
+		position: relative;
+		top: initial;
+		right: initial;
+	}
+	img {
+		display: block;
+		margin-top: 10px;
+		@include res(m) {
+			max-width: 100%;
+			width: 180px;
 			margin-bottom: 20px;
+		}
+		@include res(s) {
+			width: 160px;
 		}
 	}
 }
@@ -125,12 +154,14 @@
 
 	a{
 		display: inline-block;
+		margin-left: -82px;
 		color: $green;
 		font-size: 16px;
 		font-weight: 300;
 		transition: color 0.3s ease;
 		white-space: nowrap;
 		@include res(s){
+			margin-left: -55px;
 			font-size: 14px;
 		}
 

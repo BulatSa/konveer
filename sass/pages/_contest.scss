@@ -3,6 +3,9 @@
 	@include res(m) {
 		padding-top: 20px;
 	}
+	@include res(s) {
+		padding-top: 0;
+	}
 }
 
 .contest {}
