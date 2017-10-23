@@ -34,7 +34,7 @@
 	<div class="container">
 
 		<div class="intro-top">
-			<span class="intro-top__what">Семинар — практикум</span>
+			<span class="intro-top__what">Бесплатный семинар — практикум</span>
 			<?php include('img/text-logo.svg'); ?>
 			<p class="intro-top__descr">Получите советы и ответы на свои вопросы от действующих предпринимателей с доходом от 1 000 000 рублей за один вечер</p>
 			<div class="intro-top__partner">
@@ -106,16 +106,16 @@
 		<div class="row">
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/15.jpg" alt="Эдгар Полькин">
-					<a href="https://www.facebook.com/edgione" target="_blank" class="h4 hero__name">Эдгар Полькин</a>
-					<p class="hero__descr">Модератор мероприятия «Бизнес Конвейер». Основатель Alumni Union </p>
+					<img src="/img/team/16.jpg" alt="Максим Жуирилов">
+					<a href="https://www.facebook.com/zhurilo" target="_blank" class="h4 hero__name">Максим Жуирилов</a>
+					<p class="hero__descr">Основатель школы правильного бега «I love Running»</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/1.jpg" alt="Сергей Акульчев">
-					<a href="https://www.facebook.com/s.akulchev" target="_blank" class="h4 hero__name">Сергей Акульчев</a>
-					<p class="hero__descr">Основатель Кондитерской фабрики  «Акульчев»</p>
+					<img src="/img/team/15.jpg" alt="Эдгар Полькин">
+					<a href="https://www.facebook.com/edgione" target="_blank" class="h4 hero__name">Эдгар Полькин</a>
+					<p class="hero__descr">Модератор мероприятия «Бизнес Конвейер». Основатель Alumni Union </p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
@@ -179,9 +179,9 @@
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/11.jpg" alt="Ильяс Валиуллин">
-					<a href="https://www.facebook.com/ilyasenjoy" target="_blank" class="h4 hero__name">Ильяс Валиуллин</a>
-					<p class="hero__descr">Блоггер. Сеть каляьнных «Мята»</p>
+					<img src="/img/team/17.jpg" alt="Денис Добряков">
+					<a href="https://www.facebook.com/100005249115156" target="_blank" class="h4 hero__name">Денис Добряков</a>
+					<p class="hero__descr">Основатель Art Skills</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
@@ -279,7 +279,7 @@
 		<div class="themes-stage__list">
 			<span class="themes-stage__item-1 anim">1. Как заставить себя выйти из зоны комфорта</span>
 			<span class="themes-stage__item-2 anim">2. Какие действия помогают бизнесу взлететь</span>
-			<span class="themes-stage__item-3 anim">3. Как втоматизировать свой бизнес – делать меньше и получать больше</span>
+			<span class="themes-stage__item-3 anim">3. Как автоматизировать свой бизнес – делать меньше и получать больше</span>
 			<span class="themes-stage__item-4 anim">4. Как выбрать свой путь и радоваться тому, что делаешь</span>
 			<span class="themes-stage__item-5 anim">5. Как тратить меньше сил и зарабатывать больше денег</span>
 			<span class="themes-stage__item-6 anim">6. В какую сторону двигаться вашему бизнесу дальше</span>
