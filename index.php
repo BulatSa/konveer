@@ -106,8 +106,8 @@
 		<div class="row">
 			<div class="grid-4 grid-6_s grid-12_xs">
 				<div class="hero anim">
-					<img src="/img/team/16.jpg" alt="Максим Жуирилов">
-					<a href="https://www.facebook.com/zhurilo" target="_blank" class="h4 hero__name">Максим Жуирилов</a>
+					<img src="/img/team/16.jpg" alt="Максим Журило">
+					<a href="https://www.facebook.com/zhurilo" target="_blank" class="h4 hero__name">Максим Журило</a>
 					<p class="hero__descr">Основатель школы правильного бега «I love Running»</p>
 				</div>
 			</div>
