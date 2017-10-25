@@ -34,14 +34,14 @@
 <div class="modals-sec">
 
 	<div id="modal-order-1" class="modal">
-		<p class="h6 purple-light">Принять участие</p>
-		<p class="modal__descr">Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
+		<p class="h4 purple-light">Принять участие</p>
+		<p class="modal__descr">Оставьте заявку, участие бесплатное</p>
 		<form class="ajax-form vertical-form">
 			<input type="text" class="input-text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя">
-			<input type="email" class="input-text" name="user_email" placeholder="Введите e-mail*" data-label="Email" data-req="true">
 			<input type="tel" class="input-text" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
+			<input type="email" class="input-text" name="user_email" placeholder="Введите e-mail*" data-label="Email" data-req="true">
 			<input type="hidden" value="Новая заявка" name="form_subject">
-			<button type="submit" class="btn">Отправить</button>
+			<button type="submit" class="btn" onclick="yaCounter46318980.reachGoal('LEAD');">Отправить</button>
 			<label class="style-checkbox style-checkbox--red">
 				<input type="checkbox" checked data-req="true" name="agree-terms" data-label="Согласен с условиями" value="Да">
 				<span>Я принимаю <a href="#" class="fancy" data-src="#modal-politycs">условия передачи информации</a></span>
@@ -62,12 +62,49 @@
 		<p class="h3">Спасибо за заявку!</p>
 	</div>
 
+	<div id="modal-surprise" class="modal modal--surprise">
+		<img src="img/facts/fact-man.png" alt="">
+		<p class="h3">Участие в разборе - бесплатное!</p>
+	</div>
+
 </div>
 <!-- Модальные окна -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/assets.js" type="text/javascript" ></script>
-<script src="js/main.js" type="text/javascript" ></script>
+<script src="js/assets.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter46318980 = new Ya.Metrika({
+					id:46318980,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true,
+					webvisor:true
+				});
+			} catch(e) { }
+		});
+
+		var n = d.getElementsByTagName("script")[0],
+			s = d.createElement("script"),
+			f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/46318980" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
 
 	</body>
 </html>

@@ -122,7 +122,7 @@
 				<div class="hero anim">
 					<img src="/img/team/2.jpg" alt="Кирилл Доронин">
 					<a href="https://vk.com/id97984210" target="_blank" class="h4 hero__name">Кирилл Доронин</a>
-					<p class="hero__descr">Бизнес тренер. Завод по розливу воды</p>
+					<p class="hero__descr">Бизнес тренер. Финансовые IT-компании</p>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_s grid-12_xs">
@@ -617,7 +617,7 @@
 						<span class="location__metro-item location__metro-item--blue">Смоленская</span>
 					</div>
 					<div class="location__map-link">
-						<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map" data-type="iframe"><img src="/img/pin.svg" alt="pin">Схема проезда</a>
+						<a href="https://yandex.ru/map-widget/v1/-/CBUhURfPKD" class="fancy-map" data-type="iframe"><img src="/img/pin.svg" alt="pin">Схема проезда</a>
 					</div>
 				</div>
 			</div>
@@ -683,7 +683,7 @@
 							<input type="tel" class="input-text" name="phone" placeholder="Телефон*" data-req="true">
 							<input type="email" class="input-text" name="email" placeholder="E-mail">
 							<input type="hidden" value="Новая заявка" name="form_subject">
-							<button class="btn">Отправить</button>
+							<button class="btn" onclick="yaCounter46318980.reachGoal('LEAD_DOWN');">Отправить</button>
 						</div>
 						<label class="style-checkbox style-checkbox--red">
 							<input type="checkbox" checked data-req="true" name="agree-terms" data-label="Согласен с условиями" value="Да">

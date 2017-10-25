@@ -9,6 +9,10 @@
 	background: $color-bg;
 	border-radius: 20px;
 
+	.h4 {
+		margin-bottom: 15px;
+	}
+
 	&__descr{
 		font-size: 14px;
 		line-height: 1.3;
@@ -18,6 +22,16 @@
 
 	&--politycs{
 		width: 600px;
+	}
+	&--surprise {
+		width: initial;
+		text-align: center;
+		@include res(m) {
+			width: 90%;
+		}
+		img {
+			max-width: 100%;
+		}
 	}
 }
 

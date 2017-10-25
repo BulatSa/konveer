@@ -12,9 +12,19 @@ foreach ($_POST as $input_name => $input_val) {
 			} else {
 				$message .= $input_name . ": " . $input_val . "<br>";
 			}
+			$tofile .= $input_val . ";";
 		}
 	}
 }
+
+//запись в файл
+$today = date("j.m.Y, G:i");
+$tofile .= $today."\n";
+
+$file = 'orders.csv';
+$bom = "\xEF\xBB\xBF";
+@file_put_contents($file, $bom . $tofile . file_get_contents($file));
+//запись в файл конец
 
 require_once('class.phpmailer.php');
 $mail = new PHPMailer;
@@ -23,6 +33,7 @@ $mail->setFrom('no-reply@biz-razbor.ru', 'biz-razbor.ru');
 $mail->addAddress('gray005@yandex.ru');
 $mail->addAddress('sales@bizfabrika.pro');
 $mail->addAddress('alhimik-77@yandex.ru');
+$mail->addAddress('m.r.galiullin@yandex.ru');
 $mail->isHTML(true);
 $mail->Subject = $subject;
 $mail->Body = $message;
